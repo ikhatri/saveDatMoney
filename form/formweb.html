@@ -2,62 +2,67 @@
 
 <head>
 
-<title> Please enter your info in the form provided </title>
-<link rel="stylesheet" type="text/css" href="view.css" media="all">
-<script type="text/javascript" src="view.js"></script>
+	<title> Please enter your info in the form provided </title>
+	<script data-main="../lib/capital_one" src="../lib/require-jquery.js"></script>
+	<script src="formweb.js"></script>
+	<link rel="stylesheet" type="text/css" href="view.css" media="all">
+	<script type="text/javascript" src="view.js"></script>
 </head>
 
 <body>
-   
-    <img id="top" src="top.png" alt="">
+
+	<img id="top" src="top.png" alt="">
 	<div id="form_container">
-	
-		<form id="form_1166010" class="appnitro"  method="post" action="">
-					<div class="form_description">
-			<h2><center>Please enter your personal information</h2>
-		</div>						
+
+		<!--<form id="form_1166010" class="appnitro" method="post" action="">-->
+			<div class="form_description">
+				<h2>
+					<center>Please enter your personal information</h2>
+			</div>
 			<ul style="list-style-type:none">
-			
-					<li id="li_1" >
-		<label class="description" for="element_1">First Name </label>
-		<div>
-			<input id="fname" name="fname" class="element text medium" type="text" maxlength="255" value=""/> 
-		</div> 
-		</li>		<li id="li_2" >
-		<label class="description" for="lname">Last Name </label>
-		<div>
-			<input id="lname" name="lname" class="element text medium" type="text" maxlength="255" value=""/> 
-		</div> 
-		</li>		<li id="li_3" >
-		<label class="description" for="element_3">Address </label>
-		
-		<div>
-			<input id="address" name="address" class="element text large" value="" type="text">
-			<label for="address">Street Address</label>
-		</div>
-	
-		<div>
-			<input id="element_3_2" name="element_3_2" class="element text large" value="" type="text">
-			<label for="element_3_2">Address Line 2</label>
-		</div>
-	
-		<div class="left">
-			<input id="city" name="city" class="element text medium" value="" type="text">
-			<label for="city">City</label>
-		</div>
-	
-		<div class="right">
-			<input id="state" name="state" class="element text medium" value="" type="text">
-			<label for="state">State / Province / Region</label>
-		</div>
-	
-		<div class="left">
-			<input id="zipcode" name="zipcode" class="element text medium" maxlength="15" value="" type="text">
-			<label for="zipcode">Postal / Zip Code</label>
-		</div>
-	
-		<div class="right">
-			<select class="element select medium" id="element_3_6" name="element_3_6"> 
+
+				<li id="li_1">
+					<label class="description" for="element_1">First Name </label>
+					<div>
+						<input id="fname" name="fname" class="element text medium" type="text" maxlength="255" value="" />
+					</div>
+				</li>
+				<li id="li_2">
+					<label class="description" for="lname">Last Name </label>
+					<div>
+						<input id="lname" name="lname" class="element text medium" type="text" maxlength="255" value="" />
+					</div>
+				</li>
+				<li id="li_3">
+					<label class="description" for="element_3">Address</label>
+
+					<div>
+						<input id="number" name="address" class="element text large" value="" type="text">
+						<label for="address">House Number</label>
+					</div>
+
+					<div>
+						<input id="stname" name="element_3_2" class="element text large" value="" type="text">
+						<label for="element_3_2">Street Name</label>
+					</div>
+
+					<div class="left">
+						<input id="city" name="city" class="element text medium" value="" type="text">
+						<label for="city">City</label>
+					</div>
+
+					<div class="right">
+						<input id="state" name="state" class="element text medium" value="" type="text">
+						<label for="state">State / Province / Region</label>
+					</div>
+
+					<div class="left">
+						<input id="zipcode" name="zipcode" class="element text medium" maxlength="15" value="" type="text">
+						<label for="zipcode">Postal / Zip Code</label>
+					</div>
+
+					<div class="right">
+						<select class="element select medium" id="element_3_6" name="element_3_6"> 
 			<option value="" selected="selected"></option>
 <option value="Afghanistan" >Afghanistan</option>
 <option value="Albania" >Albania</option>
@@ -256,20 +261,20 @@
 <option value="Zimbabwe" >Zimbabwe</option>
 	
 			</select>
-		<label for="element_3_6">Country</label>
-	</div> 
-		</li>
-			
-					<li class="buttons">
-			    <input type="hidden" name="form_id" value="1166010" />
-			    
-				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
-		</li>
+						<label for="element_3_6">Country</label>
+					</div>
+				</li>
+
+				<li class="buttons">
+					<input type="hidden" name="form_id" value="1166010" />
+
+					<input id="submit" class="button_text" type="submit" name="submit" value="Submit" />
+				</li>
 			</ul>
-		</form>	
+		<!--</form>-->
 	</div>
-	<img id="bottom" 
-    src="bottom.png" alt="">
+	<img id="bottom" src="bottom.png" alt="">
 
 </body>
+
 </html>
